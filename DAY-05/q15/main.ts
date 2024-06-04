@@ -7,7 +7,7 @@
 //===================(<>)==================(Q-15)==================(<>)====================//
 
 
- let guests: string[] = ["Asharib Ali", "Hunain Hyder", "Ahmed sheikh"];
+let guests: string[] = ["Asharib Ali", "Hunain Hyder", "Ahmed sheikh"];
 
 
 guests.forEach(guests =>{ 
@@ -26,3 +26,5 @@ guests[guests.indexOf(unableToAttend)] = newGuest;
 guests.forEach(guest => {
     console.log(`Dear ${guest}, would you like to join me for dinner?`);
 });
+
+if (true || false) {}

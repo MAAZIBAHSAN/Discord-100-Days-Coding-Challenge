@@ -16,3 +16,6 @@ guests[guests.indexOf(unableToAttend)] = newGuest;
 guests.forEach(function (guest) {
     console.log("Dear ".concat(guest, ", would you like to join me for dinner?"));
 });
+var text = "Hello world, welcome to the universe.";
+var result = text.indexOf("welcome");
+console.log(result);
